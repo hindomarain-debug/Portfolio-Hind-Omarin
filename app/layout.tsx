@@ -15,10 +15,10 @@ const inter = Inter({
   variable: "--font-inter",
   display: "swap",
 });
-
 export const metadata: Metadata = {
-  title: "Hind Omarin | Portfolio",
-  description: "My software development portfolio and projects.",
+  title: "Hind Omarin | Software Development Student",
+  description:
+    "Portfolio of Hind Omarin, a Software Development student building practical web applications.",
 };
 
 export default function RootLayout({

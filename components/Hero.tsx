@@ -6,8 +6,9 @@ export default function Hero() {
       <div className="container hero-inner">
         <div className="hero-content">
           <p className="hero-greeting">Hi, I&apos;m</p>
-          <h1 className="hero-name">Your Name</h1>
+          <h1 className="hero-name">Hind Omarin</h1>
           <h2 className="hero-role">Software Development Student</h2>
+
           <p className="hero-description">
             I build practical web applications and websites, with experience in
             both software development and real client projects.
@@ -25,7 +26,8 @@ export default function Hero() {
         <div className="hero-photo">
           <Image
             src="/images/profile.png"
-            alt="Portrait of Your Name"
+            alt="alt="Portrait of Hind Omarin
+"
             width={340}
             height={425}
             priority

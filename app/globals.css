@@ -58,6 +58,31 @@ ul {
   margin: 0 auto;
   padding: 0 24px;
 }
+.section-heading {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 36px;
+}
+
+@media (max-width: 900px) {
+  section {
+    padding: 56px 0;
+  }
+
+  .section-heading {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  section {
+    padding: 40px 0;
+  }
+
+  .container {
+    padding: 0 20px;
+  }
+}
 
 /* Navbar */
 
@@ -273,4 +298,13 @@ ul {
   .hero-name {
     font-size: 2.25rem;
   }
+}
+/* About */
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 720px;
+  color: var(--text-secondary);
 }
