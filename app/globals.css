@@ -105,6 +105,11 @@ ul {
   border-radius: 5px;
   border: 1px solid var(--border);
 }
+.section-intro {
+  color: var(--text-secondary);
+  max-width: 640px;
+  margin-bottom: 40px;
+}
 
 /* Cards */
 
@@ -402,4 +407,77 @@ ul {
   display: flex;
   gap: 12px;
   margin-top: 4px;
+}
+/* Skills */
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 900px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.skills-card {
+  padding: 24px;
+}
+
+.skills-card-title {
+  font-size: 1rem;
+  margin-bottom: 16px;
+}
+/* Experience */
+
+.experience-intro {
+  margin-bottom: 40px;
+}
+
+.experience-title {
+  font-size: 1.15rem;
+  margin-bottom: 12px;
+}
+
+.experience-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px 24px;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.experience-list li {
+  position: relative;
+  padding-left: 18px;
+}
+
+.experience-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--blue);
+}
+
+.experience-role {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+}
+
+@media (max-width: 620px) {
+  .experience-list {
+    grid-template-columns: 1fr;
+  }
 }
