@@ -26,8 +26,7 @@ export default function Hero() {
         <div className="hero-photo">
           <Image
             src="/images/profile.png"
-            alt="alt="Portrait of Hind Omarin
-"
+            alt="Portrait of Hind Omarin"
             width={340}
             height={425}
             priority
